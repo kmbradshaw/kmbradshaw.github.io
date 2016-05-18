@@ -1,1 +1,26 @@
-body {background:blue}
+*{font-family: Helvetica;}
+
+#top {background-image: url("images/background.png");}
+
+body {background: #F4F5F6}
+
+h1 {
+	text-align: center;
+	color: #4A96AD
+	}
+
+h2 {text-align: center;
+	color: #4A96AD;}
+
+#image-cite{
+	border-style: solid;
+	border-color: black;
+	border-width: 10px;
+	float:left;
+	margin: 40px;
+	padding: 10px;
+ }
+#play-win {margin-top: 55px}
+
+h3 {color: #7D1935}
+
