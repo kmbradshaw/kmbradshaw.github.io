@@ -1,6 +1,11 @@
 *{font-family: Helvetica;}
 
-#top {background-image: url("images/background.png");}
+#top {border-bottom: solid;
+	border-top: solid;
+	border-color: #4A96AD;
+	border-width: 10px;
+	background-image: url("images/background.png");
+}
 
 body {background: #F4F5F6}
 
@@ -9,18 +14,23 @@ h1 {
 	color: #4A96AD
 	}
 
-h2 {text-align: center;
-	color: #4A96AD;}
+h2 {
+	text-align: center;
+	color: #4A96AD;
+}
 
 #image-cite{
 	border-style: solid;
-	border-color: black;
+	border-color: #4A96AD;
 	border-width: 10px;
 	float:left;
 	margin: 40px;
 	padding: 10px;
  }
-#play-win {margin-top: 55px}
+
+ul {
+    list-style-image: url('images/pokeball.png')
+}
 
 .bold {font-weight: bold;}
 
@@ -29,4 +39,19 @@ h3 {color: #7D1935}
 a:visited {color: #DFA9A9;}
 
 a:link{color: #6D5874;}
+
+@media only screen and (max-device-width: 480px) {
+#image-cite {
+	border-style: solid;
+	border-color: #4A96AD;
+	border-width: 10px;
+	}
+		image.center {
+			display: block;
+			margin: 0 auto;
+			}
+	}
+
+
+
 
