@@ -28,6 +28,16 @@ h2 {
 	padding: 10px;
  }
 
+#play-win {
+	margin-left: 40px;
+}
+
+section {
+	float: left;
+	margin-left: 40px;
+}
+
+
 ul {
     list-style-image: url('images/pokeball.png')
 }
@@ -40,17 +50,12 @@ a:visited {color: #DFA9A9;}
 
 a:link{color: #6D5874;}
 
-@media only screen and (max-device-width: 480px) {
-#image-cite {
-	border-style: solid;
-	border-color: #4A96AD;
-	border-width: 10px;
-	}
-		image.center {
-			display: block;
-			margin: 0 auto;
-			}
-	}
+@media screen and (max-width: 1148px) {
+  #play-win {
+  	float: left;
+  	width: 100%;
+  }
+  }
 
 
 
